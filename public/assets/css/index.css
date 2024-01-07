@@ -1,0 +1,111 @@
+.custom-button {
+  background: #6495ED;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 8px;
+}
+
+.custom-button:hover {
+  background: #1E90FF;
+}
+  
+  .table {
+    font-size: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 50px;
+    width: 30%;
+  }
+  
+  .top {
+    background-color: #000080; /*Color*/
+    border-radius: 15px 15px 0px 0px;
+    height: 50px;
+    width: 80%;
+    margin-left: 0%;
+    border-bottom: 1px solid #95a5a6; /*Color*/
+    color: #ecf0f1; /*Color*/
+    font-weight: bold;
+  }
+  
+  .inside {
+    background-color: #ecf0f1; /*Color*/
+    height: 50px;
+    width: 80%;
+    border-bottom: 0.25px solid #95a5a6; /*Color*/
+  }
+  
+  .bottom {
+    background-color: #000080; /*Color*/
+    border-radius: 0px 0px 15px 15px;
+    height: 50px;
+    width: 80%;
+    color: #ecf0f1; /*Color*/
+    font-weight: bold;
+  }
+  
+  .left {
+    width: 30%;
+    padding-top: 15px;
+    display: inline-block;
+    text-align: center;
+  }
+  
+  .center {
+    width: 30%;
+    padding-top: 15px;
+    display: inline-block;
+    float: center;
+    text-align: center;
+  }
+  
+  .right {
+    width: 30%;
+    padding-top: 15px;
+    display: inline-block;
+    text-align: center;
+  }
+  
+  .input {
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+    width: 40%;
+    height: 50px;
+    border-radius: 15px;
+    border: 1px solid #8e44ad; /*Color*/
+  }
+  
+  .input:hover {
+    border: 2px solid #8e44ad; /*Color*/
+  }
+  
+
+
+
+  @media (max-width: 650px) {
+    .table {
+      font-size: 10px;
+    }
+    .left {
+      width: 30%;
+      display: inline-block;
+      text-align: center;
+    }
+    
+    .center {
+      width: 30%;
+      display: inline-block;
+      text-align: center;
+    }
+    
+    .right {
+      width: 30%;
+      display: inline-block;
+      text-align: center;
+    }
+  }
+
+  
